@@ -1,8 +1,8 @@
-# Site of Anton Pivniuk portfolio on Gatsby
+# Anton Pivniuk portfolio site
 
 ### Anton Pivniuk - UI/UX Engineer
 
-Web development of Anton Pivniuk portfolio
+Web development of Anton Pivniuk portfolio site
 
 ### Run
 
