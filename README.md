@@ -1,8 +1,8 @@
-# Anton Pivniuk portfolio site
+# Anton Pivniuk CV page
 
 ### Anton Pivniuk - UI/UX Engineer
 
-Web development of Anton Pivniuk portfolio site
+Web development of Anton Pivniuk CV page
 
 ### Run
 
