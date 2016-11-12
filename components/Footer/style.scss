@@ -1,0 +1,67 @@
+@import '../../node_modules/coriolan-ui/tools/vars.scss';
+@import '../../node_modules/coriolan-ui/mixins/media';
+
+.footer {
+    padding: 40px 20px 80px;
+    position: relative;
+    text-align: center;
+
+    &__copyright {
+        margin-bottom: 20px;
+    }
+
+    &__powered {
+        letter-spacing: 2.5px;
+        font-size: 10px;
+
+        &-link {
+            color: #d43324;
+            text-decoration: none;
+            padding: 0 0 2px;
+            cursor: pointer;
+            margin-left: 8px;
+            display: inline-block;
+        }
+
+        &-svg {
+            display: inline-block;
+            width: auto;
+            height: 24px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        &-fx {
+            position: relative;
+            padding: 0 4px;
+
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                background: #d43324;
+                transition: left .25s ease;
+                right: 0;
+                height: 1px;
+            }
+
+            &:before {
+                top: 0;
+                left: 100%;
+            }
+
+            &:after {
+                bottom: -2px;
+                left: 0;
+            }
+
+            .footer__powered-link:hover &:before {
+                left: 0;
+            }
+
+            .footer__powered-link:hover &:after {
+                left: 100%;
+            }
+        }
+    }
+}
