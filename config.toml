@@ -12,4 +12,4 @@ siteGithubUrl = ''
 poweredUrl = 'http://ihororlovskyi.com'
 poweredTitle = 'Ihor Orlovskyi'
 
-linkPrefix = ''
+linkPrefix = '/antonpivniuk.github.io'
