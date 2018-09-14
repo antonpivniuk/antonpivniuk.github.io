@@ -59,7 +59,7 @@
       max-width="320"
     >
       <v-card>
-        <v-card-title class="subheading">Абонент найден</v-card-title>
+        <v-card-title class="subheading">{{ secretMessage }}</v-card-title>
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
@@ -82,7 +82,8 @@
       createFalseDialog: false,
       createTrueDialog: false,
       secretNumber: '0731145621',
-      secretPlace: 'https://goo.gl/maps/mNp1zHtN4kp'
+      secretPlace: 'https://goo.gl/maps/Wyp7Zfb7AAt',
+      secretMessage: 'Сигнал обнаружен на втором этаже'
     }),
     computed: {
       formIsValid () {
